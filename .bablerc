@@ -1,0 +1,13 @@
+{
+  "env": {
+    "test": {
+      "plugins": [ "istanbul",{
+        "include": [
+          "src/*.js"
+        ]
+      }]
+    }
+  }
+  "presets": ["@babel/preset-react"],
+  "plugins": ["transform-class-properties", "istanbul"]
+}

@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://localhost:4444/cyp-hello/JSTest/",
+    "defaultCommandTimeout":20000,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "firefoxGcInterval": {
+        "runMode": 1,
+        "openMode": null
+      },
+    "env": {
+        "videoToUse": "auto",
+        "fileList" :[],
+        "dbrjsurl" : "https://cdn.jsdelivr.net/npm/keillion-dynamsoft-javascript-barcode@0.20200514133533.0/dist/",
+        "dbrjsupkgurl" : "https://unpkg.com/dynamsoft-javascript-barcode@7.4.0-v1/dist/dbr.js"
+    }
+    
+}
