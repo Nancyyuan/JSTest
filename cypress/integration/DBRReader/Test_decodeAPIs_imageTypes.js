@@ -11,7 +11,6 @@ describe("decode different image types", ()=>{
     })
     
     
-   Array("cypress\\fixtures\\bitdepth\\8depth_code128.png","cypress\\fixtures\\bitdepth\\8depth_EAN-13.jpg")
     Cypress.env('fileList').forEach(filepath => {
         it('decode_'+filepath,()=>{
             var suffix = filepath.substr(filepath.lastIndexOf('.')).toLowerCase();
